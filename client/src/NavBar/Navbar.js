@@ -12,7 +12,7 @@ function NavbarLoggedOut(props){
                     <NavLink className="nav-link tab disabled" to="home">Home </NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink className="nav-link tab disabled" to="stocks">NYSE  </NavLink>
+                    <NavLink className="nav-link " to="stocks">NYSE  </NavLink>
                     </li>
                     <li className="nav-item">
                     <NavLink className="nav-link tab disabled" to="about">About</NavLink>

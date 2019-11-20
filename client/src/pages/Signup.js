@@ -15,9 +15,10 @@ function Signup(){
         <br />
         <button type="submit"> Sign Me Up! </button>
       </form> */
-
-      <form className="border border-warning ">
-        <h1 className=" text-center my-2">New User? Sign up right here!</h1>
+      <div id="outer" className=" border border-primary my-2">
+      <h1 className=" text-center my-2">New User? Sign up right here!</h1>
+      <div className = "border border-info "></div>
+      <form className="border d-flex justify-content-center ">
       <div class="form-group  text-center justify-content-center my-4 border border-warning "   >
           <div class="form-group ">
             <label class="mr-sm-2 " for="uname"> Username </label><br/>
@@ -40,7 +41,7 @@ function Signup(){
        <button type="submit" class="btn btn-light btn-outline-info" >Sign Me Up!</button>
       </div>
      </form>
-       
+    </div>
     )
 }
 

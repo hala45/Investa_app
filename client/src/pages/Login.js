@@ -16,17 +16,17 @@ function Login(props){
     </label>
   </form>   
   </div> */
-          
-     <form className="border border-warning ">
-      <div class="form-group  text-center justify-content-center my-4 border border-warning "   >
+      <div className = "border border-secondary my-2">
+     <form className="border d-flex justify-content-center">
+      <div className="form  text-center  my-4 border border-warning" >
         
-          <div class="form-group ">
-            <label class="mr-sm-2 " for="uname"> Username </label>
+          <div >
+            <label class="mr-sm-2 " for="uname"> Username </label><br/>
             <input type="text" class="form-controll" id="uname" aria-describedly="emailHelp" placeholder="Enter Username"></input>
           </div>
        <br/>
-          <div class="form-group ">
-            <label class="mr-sm-2" for="psw"> Password </label>
+          <div >
+            <label class="mr-sm-2" for="psw"> Password </label><br/>
             <input type="text" class="form-controll" id="psw" placeholder="Password"></input>
           </div>
           <div class="my-2" >
@@ -37,6 +37,9 @@ function Login(props){
        <button type="submit" class="btn btn-dark px-2 ">Submit</button>
       </div>
      </form>
+
+      
+     </div>
 
     )
 }
