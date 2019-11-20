@@ -5,8 +5,9 @@ function NavbarLoggedOut(props){
 
     return (
         <div>
-        <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+        <nav className="navbar navbar-expand-sm bg-dark navbar-dark nav-right">
             <NavLink className="navbar-brand" to="/">Investa</NavLink>
+            <div className="nav-wrapper container">
             <ul className="navbar-nav">
                     <li className="nav-item">
                     <NavLink className="nav-link tab disabled" to="home">Home </NavLink>
@@ -21,7 +22,7 @@ function NavbarLoggedOut(props){
                     <NavLink className="nav-link tab disabled" to="news">News</NavLink>
                     </li>
                     <li className="nav-item">
-                    <NavLink className="nav-link tab disabled" to="charts">Charts</NavLink>
+                    <NavLink className="nav-link" to="chart">Charts</NavLink>
                     </li>
                     <li className="nav-item">
                     <NavLink className="nav-link active" to="login">Login</NavLink>
@@ -30,6 +31,7 @@ function NavbarLoggedOut(props){
                     <NavLink className="nav-link" to="signup">Signup</NavLink>
                     </li>
                 </ul>
+                </div>
         </nav>
         </div>
     )
