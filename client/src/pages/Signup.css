@@ -1,0 +1,20 @@
+#outerContainer{
+    background-color: #ffffff;
+}
+
+#SignUpHeader{
+    color:rgba(102, 108, 18); 
+}
+
+.mr-sm-2{
+    color: rgba(102, 108, 18);
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:rgba(79,164,154);
+    opacity: 1; /* Firefox */
+  }
+
+  #InnerContainer{
+     
+  }

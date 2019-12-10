@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Signup.css';
 function Signup(){
     return(
         /*<form className="container">
@@ -15,32 +15,29 @@ function Signup(){
         <br />
         <button type="submit"> Sign Me Up! </button>
       </form> */
-      <div id="outer" className=" border border-primary my-2">
-      <h1 className=" text-center my-2">New User? Sign up right here!</h1>
-      <div className = "border border-info "></div>
-      <form className="border d-flex justify-content-center ">
-      <div class="form-group  text-center justify-content-center my-4 border border-warning "   >
-          <div class="form-group ">
-            <label class="mr-sm-2 " for="uname"> Username </label><br/>
-            <input type="text" class="form-controll" id="uname" aria-describedly="emailHelp" placeholder="Enter Username"></input>
+      <div id="outerContainer" className=" d-flex justify-content-center border border-primary my-2 ">
+        <div id="InnerContainer" className=" border border-primary w-50">
+      <h1 id="SignUpHeader" className=" text-center my-2 h2">New User? Sign up right here!</h1>
+      <form className=" d-flex justify-content-center border border-primary ">
+      <div class=" text-center justify-content-center my-4  "   >
+          <div class="form-group">
+            <label class="mr-sm-2 h2" for="uname"> Username </label><br/>
+            <input type="text" class="form-controll" id="uname" aria-describedly="emailHelp" placeholder="John Smith"></input>
           </div>
        <br/>
           <div class="form-group ">
-            <label class="mr-sm-2" for="psw"> Password </label> <br/>
-            <input type="text" class="form-controll" id="psw" placeholder="Password"></input>
+            <label class="mr-sm-2 h2" for="psw"> Password </label> <br/>
+            <input type="text" class="form-controll" id="psw" placeholder="****************"></input>
           </div>
           <div class="form-group ">
             <label class="mr-sm-2" for="psw"> Re-enter Password </label> <br/>
-            <input type="text" class="form-controll" id="psw" placeholder="Password"></input>
-          </div>
-          <div class="my-2" >
-            <input type="checkbox" class="form-check-input " id="Check1"></input>
-            <label class="form-check-label " for="Check1">Check me out</label> <br/>
+            <input type="text" class="form-controll" id="psw" placeholder="****************"></input>
           </div>
          
-       <button type="submit" class="btn btn-light btn-outline-info" >Sign Me Up!</button>
+       <button type="submit" class="btn btn-light btn-outline-light" >Sign Me Up</button>
       </div>
      </form>
+     </div>
     </div>
     )
 }

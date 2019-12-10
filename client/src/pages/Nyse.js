@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './Nyse.css';
 
 class Nyse extends Component {
     state = {
@@ -19,16 +20,26 @@ class Nyse extends Component {
     render(){
         if(this.state.symbols){
             return(
-                <div >
-                    <h5 className="text-center">New York Stock Exchange Companies</h5>
-                    {this.state.symbols.map( symbol => 
-                        <div className="collection">
-                            <ul className="container">
-                                <li className="collection-item"> {symbol.Symbol} - {symbol.CompanyName} </li>
-                            </ul>
+            <div>
+                <div className="  my-2" >
+                    <h5 className="  text-center">New York Stock Exchange Companies</h5>
+                    <div className="wrap d-flex justify-content-right">
+                        <div className="search">
+                            <input type="text" className="searchTerm" placeholder="Enter Stock here?"/>
+                            <button type="submit" className="searchButton">
+                            <i className="fa fa-search"></i>
+                            </button>
                         </div>
-                    )}
+                    </div>
                 </div>
+                 {this.state.symbols.map( symbol => 
+             <div className="border-0 collection">
+                <ul className="container">
+                    <li className="collection-item"> <span className="Symbol">{symbol.Symbol} </span>- {symbol.CompanyName} </li>
+                </ul>
+            </div>
+                )}
+            </div>
             )
         }
 

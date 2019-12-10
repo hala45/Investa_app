@@ -36,6 +36,7 @@ class News extends Component{
                         <li className="list-group-item">return On Equity (ROE) - {s.financialInfo.returnOnEquity.fmt}</li>
                         <li className="list-group-item">Return On Assets(ROA) - {s.financialInfo.returnOnAssets.fmt} </li>
                         <li className="list-group-item">Debt to Equity - {s.financialInfo.debtToEquity.fmt}</li>
+                        <li className="list-group-item">summary - {s.summary.longBusinessSummary}</li>
                     </ul>
             </div>
  

@@ -16,25 +16,22 @@ function Login(props){
     </label>
   </form>   
   </div> */
-      <div className = "border border-secondary my-2">
-     <form className="border d-flex justify-content-center">
-      <div className="form  text-center  my-4 border border-warning" >
+      <div className = " my-2">
+     <form className="d-flex justify-content-center">
+      <div className="form  text-center  my-4 " >
         
           <div >
-            <label class="mr-sm-2 " for="uname"> Username </label><br/>
+            <label class="mr-sm-2 h2" for="uname"> Username </label><br/>
             <input type="text" class="form-controll" id="uname" aria-describedly="emailHelp" placeholder="Enter Username"></input>
           </div>
        <br/>
           <div >
-            <label class="mr-sm-2" for="psw"> Password </label><br/>
+            <label class="mr-sm-2 h2" for="psw"> Password </label><br/>
             <input type="text" class="form-controll" id="psw" placeholder="Password"></input>
           </div>
-          <div class="my-2" >
-            <input type="checkbox" class="form-check-input " id="Check1"></input>
-            <label class="form-check-label " for="Check1">Check me out</label> <br/>
-          </div>
+          
          
-       <button type="submit" class="btn btn-dark px-2 ">Submit</button>
+       <button type="submit" class="btn btn-dark px-2 ">Take Me In</button>
       </div>
      </form>
 
