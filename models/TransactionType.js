@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 'use strict';
 const {Model} = require('sequelize');
 
@@ -16,3 +17,15 @@ module.exports = (sequelize, DataTypes) => {
   };
   return TransactionType;
 };
+=======
+const Sequelize = require('sequelize');
+const db = require('../config/database');
+
+const TransactionType = db.define('transactiontype', {
+    position: {
+        type: Sequelize.STRING
+    }
+})
+
+module.exports = TransactionType;
+>>>>>>> 5c13d9cb4a62c2896145e3bad4e6209aee349c8d

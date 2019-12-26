@@ -14,6 +14,7 @@
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
+<<<<<<< HEAD
     "express-flash": "0.0.2",
     "express-router": "0.0.1",
     "express-session": "^1.17.0",
@@ -26,5 +27,9 @@
     "request": "^2.88.0",
     "sequelize": "^5.21.2",
     "sequelize-cli": "^5.5.1"
+=======
+    "express-router": "0.0.1",
+    "request": "^2.88.0"
+>>>>>>> 5c13d9cb4a62c2896145e3bad4e6209aee349c8d
   }
 }

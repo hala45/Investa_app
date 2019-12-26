@@ -16,7 +16,11 @@ router.get('/:id', (req, res, next) => {
         qs: {interval: '1d', region: 'US', symbol: `${symbolName}`, lang: 'en', range: '1mo'},
         headers: {
             'x-rapidapi-host': 'apidojo-yahoo-finance-v1.p.rapidapi.com',
+<<<<<<< HEAD
             'x-rapidapi-key': 'ce9b90c58fmsh5b71f37b9a6a50ep172728jsn54c6923e6e85'
+=======
+            'x-rapidapi-key': '93b26d98c8msh56f6f024aa8de21p18ec5ejsn2e4cb3c87943'
+>>>>>>> 5c13d9cb4a62c2896145e3bad4e6209aee349c8d
         }
     };
 

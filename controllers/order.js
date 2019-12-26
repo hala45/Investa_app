@@ -45,7 +45,7 @@ router.use(
       currentPrice = (p.close).toString();
       currentPrice = Number(currentPrice);
 
-      let userid = 5;
+      let userid = 18;
       
       if(position === "buy"){
         Transaction.create({
